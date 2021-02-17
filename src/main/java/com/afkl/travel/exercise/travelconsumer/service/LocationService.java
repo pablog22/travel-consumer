@@ -14,10 +14,10 @@ import java.util.Set;
 @Service
 public class LocationService {
 
-    private final String TYPE_COUNTRY = "country";
-    private final String TYPE_CITY = "city";
-    private final String TYPE_AIRPORT = "airport";
-    private final String COUNTRY_CODE_US = "US";
+    private static final String TYPE_COUNTRY = "country";
+    private static final String TYPE_CITY = "city";
+    private static final String TYPE_AIRPORT = "airport";
+    private static final String COUNTRY_CODE_US = "US";
 
     @Autowired
     private RestTemplate restTemplate;
